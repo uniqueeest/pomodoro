@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import "./Timer.css"
 
 const Timer = () => {
   const [time, setTime] = useState(0);
@@ -76,12 +77,14 @@ const Timer = () => {
   }
 
   return (
-    <div>
+    <div className="timer-container">
       <h1>Pomodoro</h1>
-      <h3>{minutes}:{seconds}</h3>
-      {workBtn && <button onClick={workHandler}>작업 시작</button>}
-      {restBtn && <button onClick={restHandler}>휴식 시작</button>}
-      <button onClick={timeHandler}>종료</button>
+      <div className="tomato-container">
+        <h3>{minutes}:{seconds}</h3>
+      </div>
+      {workBtn && <button onClick={workHandler} className="workBtn">작업 시작</button>}
+      {restBtn && <button onClick={restHandler} className="restBtn">휴식 시작</button>}
+      <button onClick={timeHandler} className="resetBtn">종료</button>
     </div>
   )
 };
