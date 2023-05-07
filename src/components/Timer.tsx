@@ -7,6 +7,7 @@ const Timer = () => {
   const [seconds, setSeconds] = useState<string|number>(0);
   const [workBtn, setWorkBtn] = useState(true);
   const [restBtn, setRestBtn] = useState(false);
+  const [cycle, setCycle] = useState(0);
 
   useEffect(() => {
     const timeStart = setInterval(() => {
@@ -64,11 +65,13 @@ const Timer = () => {
     setTime(0);
     setWorkBtn(true);
     setRestBtn(false);
+    setCycle(0);
   };
 
   //work 버튼 핸들러
   const workHandler = () => {
     setTime(1800);
+    setCycle(() => cycle + 1);
   }
 
   //rest 버튼 핸들러
@@ -82,6 +85,8 @@ const Timer = () => {
       <div className="tomato-container">
         <h3>{minutes}:{seconds}</h3>
       </div>
+      <h3 id="cycle">{cycle} 세트 진행 중</h3>
+      <p id="cycle-description">1세트는 작업 + 휴식시간 입니다.</p>
       {workBtn && <button onClick={workHandler} className="workBtn">작업 시작</button>}
       {restBtn && <button onClick={restHandler} className="restBtn">휴식 시작</button>}
       <button onClick={timeHandler} className="resetBtn">종료</button>
