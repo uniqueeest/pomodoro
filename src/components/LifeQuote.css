@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Stylish&display=swap');
+
+.quotes {
+  font-family: 'Stylish', sans-serif;
+  font-size: 1.3rem;
+  color: #454545
+}
+
+.author {
+  font-family: 'Stylish', sans-serif;
+  font-size: 1.2rem;
+  color: #454545
+}
