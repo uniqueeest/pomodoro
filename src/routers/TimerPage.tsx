@@ -13,7 +13,7 @@ const TimerPage = () => {
         fontSize: "1.3rem",
         fontFamily: "양진체",
         fontStyle: "italic",
-        fontWeight: "500",
+        fontWeight: "bold",
         color: "#121E30"
       }}>홈-으로</Link>
     </div>

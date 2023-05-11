@@ -1,8 +1,4 @@
-@font-face {
-  font-family: "Spaceport_2006";
-  src: url("../../public/font/Spaceport_2006.otf");
-  font-style: regular;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
 
 div {
   margin-bottom: 3rem;
@@ -10,7 +6,7 @@ div {
 
 .stopwatch-container {
   margin: 4rem;
-  font-family: "Spaceport_2006";
+  font-family: 'Bruno Ace', cursive;
   font-size: 3em;
 }
 

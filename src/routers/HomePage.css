@@ -1,7 +1,8 @@
 @font-face {
-  font-family: "양진체";
-  src: url("../../public/font/양진체.ttf");
-  font-style: regular;
+  font-family: '양진체';
+  src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .homepage-container {
@@ -15,7 +16,7 @@
 .homepage-container > h1 {
   font-family: "양진체";
   font-style: italic;
-  font-weight: 500;
+  font-weight: 600;
   color: #058789;
 }
 
@@ -23,7 +24,7 @@
   .homepage-container > h1 {
     font-family: "양진체";
     font-style: italic;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.4rem;
   }
 }
@@ -45,15 +46,12 @@
   border: 7px solid rgb(155, 164, 181, 0.3);
   border-radius: 10%;
   background-color: #F0ECC9;
-}
 
-.link-container > div > a {
-  margin-bottom: 1rem;
-  text-decoration: none;
   cursor: pointer;
   font-size: 2rem;
   font-family: "양진체";
   font-style: italic;
+  font-weight: 600;
   color: #D54B1A;
 }
 
@@ -67,6 +65,7 @@
     height: 200px;
     border: 3px solid rgb(155, 164, 181, 0.3);
     border-radius: 10%;
+    font-size: 1.5rem;
   }
 }
 

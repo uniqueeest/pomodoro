@@ -48,6 +48,7 @@
   width: 100px;
   margin: 0 1.5rem;
   font-size: 1.4rem;
+  text-align: center;
   border: none;
   border-radius: 10px;
   font-family: 'Stylish', sans-serif;
@@ -60,6 +61,7 @@
   width: 100px;
   margin: 0 1.5rem;
   font-size: 1.4rem;
+  text-align: center;
   border: none;
   border-radius: 10px;
   font-family: 'Stylish', sans-serif;
@@ -72,10 +74,28 @@
   width: 100px;
   margin: 0 1.5rem;
   font-size: 1.4rem;
+  text-align: center;
   border: none;
   border-radius: 10px;
   font-family: 'Stylish', sans-serif;
   color:white;
   cursor: pointer;
   background-color: #7AA874;
+}
+
+@media (max-width: 500px) {
+  .resetBtn {
+    width: 100px;
+    height: 70px;
+  }
+
+  .workBtn {
+    width: 100px;
+    height: 70px;
+  }
+
+  .restBtn {
+    width: 100px;
+    height: 70px;
+  }
 }
