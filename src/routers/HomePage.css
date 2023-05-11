@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "양진체";
+  src: url("../../public/font/양진체.ttf");
+  font-style: regular;
+}
+
+.homepage-container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.homepage-container > h1 {
+  font-family: "양진체";
+  font-style: italic;
+  font-weight: 500;
+  color: #058789;
+}
+
+@media (max-width: 500px) {
+  .homepage-container > h1 {
+    font-family: "양진체";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+}
+
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.link-container > div {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+
+  margin: 2rem;
+  width: 300px;
+  height: 300px;
+  border: 7px solid rgb(155, 164, 181, 0.3);
+  border-radius: 10%;
+  background-color: #F0ECC9;
+}
+
+.link-container > div > a {
+  margin-bottom: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: "양진체";
+  font-style: italic;
+  color: #D54B1A;
+}
+
+@media (max-width: 500px) {
+  .link-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .link-container > div {
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(155, 164, 181, 0.3);
+    border-radius: 10%;
+  }
+}
+
