@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Spaceport_2006";
+  src: url("../../public/font/Spaceport_2006.otf");
+  font-style: regular;
+}
+
+div {
+  margin-bottom: 3rem;
+}
+
+.stopwatch-container {
+  margin: 4rem;
+  font-family: "Spaceport_2006";
+  font-size: 3em;
+}
+
+.stopwatch-button-container > button {
+  padding: 0.5rem;
+  margin: 1.3rem;
+  width: 100px;
+  height: 100px;
+  font-size: 1.5rem;
+  border: 10px double;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .stopwatch-button-container > button {
+    padding: 0.3rem;
+    margin: 1rem;
+    width: 70px;
+    height: 70px;
+    font-size: 1.2rem;
+    border: 5px double;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+.stopwatch-button-container > :nth-child(1) {
+  background-color: #609966;
+  border-color: aliceblue;
+  color: aliceblue;
+}
+
+.stopwatch-button-container > :nth-child(2) {
+  background-color: #F16767;
+  border-color: aliceblue;
+  color: aliceblue;
+}
+
+.stopwatch-button-container > :nth-child(3) {
+  background-color: #282A3A;
+  border-color: aliceblue;
+  color: aliceblue;
+}

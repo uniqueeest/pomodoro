@@ -1,65 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Stylish&display=swap');
-
-.timer-container {
-  margin: 2em;
+@font-face {
+  font-family: 'TTWanjudaedunsancheB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/TTWanjudaedunsancheB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
 }
 
-.timer-container h1 {
-  font-size: 2.7rem;
-  font-family: 'Darumadrop One', cursive;
-  color: #FF6969;
+@font-face {
+  font-family: "Prism-Regular";
+  src: url("../../public/font/Prism-Regular.otf");
+  font-style: regular;
 }
 
-.tomato-container {
-  min-height: 300px;
-  margin: 0 0 1.5rem 0;
-  display: grid;
+.time-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-items: center;
-
-  background-image: url("../img/tomato.png");
-  background-repeat : no-repeat;
-  background-size : contain;
-  background-position: center;
+  justify-content: center;
 }
 
-.tomato-container h3 {
-  margin: 1.4em 0 0 0;
-  font-size: 2.3rem;
-  letter-spacing: 3px;
-  font-family: 'Darumadrop One', cursive;
-}
+.timer-input-container {
+  margin: 1.2rem 1.8rem 1.2rem 0;
+  font-size: 1.7rem;
+  font-family: 'TTWanjudaedunsancheB';
+} 
 
-#cycle {
-  margin: 0;
-  font-size: 1.4rem;
-  font-family: 'Stylish', sans-serif;
-  color: #FF6969;
-}
-
-#cycle-description {
-  margin: 0.5rem 0 1rem 0;
-  font-size: 1.2rem;
-  font-family: 'Stylish', sans-serif;
-  color: #454545
-}
-
-button {
-  width: 100px;
-  margin: 0 1.5rem;
-  font-size: 1.4rem;
+.timer-input-container > input {
+  width: 3rem;
   border: none;
-  border-radius: 10px;
-  background-color: #FF6969;
-  font-family: 'Stylish', sans-serif;
-  color:white;
-  cursor: pointer;
+  font-size: 1.7rem;
+  text-align: end;
+  font-family: 'TTWanjudaedunsancheB';
 }
 
-.workBtn {
-  background-color: #009FBD;
+.timer-input-container > input {
+  font-size: 1.5rem;
 }
 
-.restBtn {
-  background-color: #7AA874;
+.timer-button-container {
+  margin: 1.3rem;
+}
+
+.timer-button-container > button {
+  width: 100px;
+  border: none;
+  border-radius: 10%;
+  padding: 0.5rem;
+  margin: 0 1.3rem;
+
+  background-color: black;
+  font-family: 'TTWanjudaedunsancheB';
+  font-size: 1.5rem;
+  color: white;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 210px;
+  margin: 1.2rem;
+  border-radius: 50%;
+  border: 10px solid black;
+}
+
+.text-container > h2 {
+  margin: 0rem auto 0.6rem auto;
+  font-family: "Prism-Regular";
+  font-size: 3rem;
 }
