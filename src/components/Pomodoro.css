@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Stylish&display=swap');
+
+.timer-container {
+  margin: 2em;
+}
+
+.timer-container h1 {
+  font-size: 2.7rem;
+  font-family: 'Darumadrop One', cursive;
+  color: #FF6969;
+}
+
+.tomato-container {
+  min-height: 300px;
+  margin: 0 0 1.5rem 0;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+  background-image: url("../../public/img/tomato.png");
+  background-repeat : no-repeat;
+  background-size : contain;
+  background-position: center;
+}
+
+.tomato-container h3 {
+  margin: 1.4em 0 0 0;
+  font-size: 2.3rem;
+  letter-spacing: 3px;
+  font-family: 'Darumadrop One', cursive;
+}
+
+#cycle {
+  margin: 0;
+  font-size: 1.4rem;
+  font-family: 'Stylish', sans-serif;
+  color: #FF6969;
+}
+
+#cycle-description {
+  margin: 0.5rem 0 1rem 0;
+  font-size: 1.2rem;
+  font-family: 'Stylish', sans-serif;
+  color: #454545
+}
+
+.resetBtn {
+  width: 100px;
+  margin: 0 1.5rem;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Stylish', sans-serif;
+  color:white;
+  cursor: pointer;
+  background-color: #FF6969;
+}
+
+.workBtn {
+  width: 100px;
+  margin: 0 1.5rem;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Stylish', sans-serif;
+  color:white;
+  cursor: pointer;
+  background-color: #009FBD;
+}
+
+.restBtn {
+  width: 100px;
+  margin: 0 1.5rem;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Stylish', sans-serif;
+  color:white;
+  cursor: pointer;
+  background-color: #7AA874;
+}

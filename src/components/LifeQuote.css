@@ -11,3 +11,15 @@
   font-size: 1.2rem;
   color: #454545
 }
+
+.quoteBtn {
+  width: 100px;
+  margin: 0 1.5rem;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Stylish', sans-serif;
+  color:white;
+  cursor: pointer;
+  background-color: #FF6969;
+}

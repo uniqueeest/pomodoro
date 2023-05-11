@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import Timer from "./components/Timer";
-import LifeQuote from './components/LifeQuote';
+import ExRouting from './routers/ExRouting';
 
 function App() {
   return (
     <div className="App">
-      <Timer />
-      <LifeQuote />
+      <ExRouting />
     </div>
   );
 }
