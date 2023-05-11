@@ -8,3 +8,4 @@
 4. 오늘의 명언
 
 ## 구현 화면
+![image](https://user-images.githubusercontent.com/123538138/236684048-5669b977-7aec-4d4e-bbee-057022a467c4.png)
